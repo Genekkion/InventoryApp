@@ -1,0 +1,18 @@
+name = "booya1"
+main = "src/index.ts"
+compatibility_date = "2023-10-14"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
+[unsafe]
+  [[unsafe.bindings]]
+  database_id = "ec459359-bf53-4169-9533-b338b0584166"
+  name = "DATABASE"
+  type = "d1"
+
+[[r2_buckets]]
+binding = "MYBUCKET"
+bucket_name = "mybucket"
