@@ -1,0 +1,9 @@
+name = "dbworker1"
+main = "src/index.js"
+compatibility_date = "2023-10-14"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
